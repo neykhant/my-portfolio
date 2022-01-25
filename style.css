@@ -197,11 +197,20 @@ html {
   /* background-color: red; */
 }
 
-.history p {
+/* .history p {
   color: white;
   line-height: 1.7;
   font-size: 18px;
   margin: 0 10px;
+  text-align: left;
+} */
+
+.history p{
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  padding: 10px;
+  line-height: 1.7;
   text-align: left;
 }
 
@@ -431,10 +440,10 @@ p {
     padding-bottom: 40px;
   }
 
-  .history p{
+  /* .history p{
     padding: 10px;
     font-size: 20px;
-  }
+  } */
 }
 
 @media (min-width: 920px) {
@@ -476,8 +485,8 @@ p {
     padding-bottom: 40px;
   }
 
-  .history p{
+  /* .history p{
     padding: 10px;
     font-size: 20px;
-  }
+  } */
 }
