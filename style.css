@@ -219,9 +219,13 @@ html {
   background-color: thistle;
   transition: ease;
 }
+.aboutContainer .aboutMe{
+  font-size: 25px;
+
+}
 
 .aboutContainer span {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   color: #fff;
   margin-bottom: 10px;
@@ -419,6 +423,11 @@ p {
 
   .header h3 {
     padding-bottom: 40px;
+  }
+
+  .history span{
+    padding: 10px;
+    font-size: 20px;
   }
 }
 
