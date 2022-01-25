@@ -45,7 +45,7 @@ html {
 .header h1 {
   padding: 10px;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 600;
   color: white;
 }
 
@@ -149,7 +149,7 @@ html {
 .about {
   width: 100%;
   background-color: #1abc9c;
-  /* min-height: 100vh; */
+  min-height: 90vh;
   /* display: flex; */
   text-align: center;
   justify-content: center;
@@ -160,7 +160,7 @@ html {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 50%;
+  /* width: 50%; */
   /* background-color: blue; */
 }
 
@@ -189,7 +189,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .history > div {
@@ -412,7 +412,7 @@ p {
   }
 
   .about {
-    min-height: 90vh;
+    min-height: 100vh;
   }
 
   .aboutContainer a {
