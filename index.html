@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <section id="wrapper">
+
+        <!-- for mobile -->
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">Logo</a>
+            <div id="myLinks">
+                <a href="#header">Protfolio</a>
+                <a href="#main">Project</a>
+                <a href="#about">About</a>
+                <a href="#about">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- for desktop -->
+        <div class="nav">
+            <div class="navContainer">
+                <div class="logo">
+                    <h1 style="font-family: 'Dancing Script', cursive;">MINGALARPAR</h1>
+                </div>
+                <div class="menu">
+                    <a href="#header">Protfolio</a>
+                    <a href="#main">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="#about">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header" id="header">
+            <img src="img/profile.jpg" alt="profile" />
+            <h1>I'm Khant Maw Hein</h1>
+            <div class="rating">
+                <div class="line"></div>
+                <i class="fas fa-star fa-2x"></i>
+                <div class="line"></div>
+            </div>
+            <h3>Web Developer & React Developer</h3>
+        </div>
+
+        <div class="main" id="main">
+            <div class="mainHeader">
+                <p>Project Experience</p>
+                <div class="rating">
+                    <div class="line"></div>
+                    <i class="fas fa-star fa-2x"></i>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="mainContent">
+                <div class="cardWrap">
+                    <div class="card">
+                        <a href="https://neykhant.github.io/weather-app/" target="_blank">
+                            <img src="./img/weather.png" alt="" />
+                            <h5>
+                                Weather App(React.js)
+                            </h5>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/neykhant/HR-Management" target="_blank">
+                            <img src="./img/manager.png" alt="" />
+                            <h5 class="h5">HR Management(Laravel)</h5>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://react-application-covid19.herokuapp.com" target="_blank">
+                            <img src="./img/manager.png" alt="" class="covid" />
+                            <h5 class="h5">Covid-19 (React.js)</h5>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cardWrap">
+                    <div class="card">
+                        <a href="https://github.com/neykhant/mini-wallet" target="_blank">
+                            <img src="./img/wallet.png" alt="" />
+                            <h5 class="h5">Wallet App(Laravel)</h5>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://quiz-react-deploy.herokuapp.com" target="_blank">
+                            <img src="./img/quizz.png" alt="" />
+                            <h5 class="h5">Quiz App(React.js)</h5>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://neykhant.github.io/my-youtube-clone" target="_blank">
+                            <img src="./img/youtubee.png" alt="" />
+                            <h5 class="h5">Youtube Clone (React.js)</h5>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <h4>Contact</h4>
+            <div class="rating">
+                <div class="line"></div>
+                <i class="fas fa-star fa-2x"></i>
+                <div class="line"></div>
+            </div>
+
+            <div class="contactContainer">
+                <p> Phone: 09988766544</p>
+                <p> Email: abc@gmail.com</p>
+                <p> Address: Lanmadaw (Yangon)</p>
+            </div>
+            <div class="aboutContainer">
+                <span>About me</span>
+                <div class="history">
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+                            excepturi? Aliquam magnam perferendis modi,
+                            tempore at nemo est illo minus atque,
+                            nobis in voluptate debitis sit fugit reiciendis maiores. Tenetur!1
+                        </p>
+                    </div>
+                    <!-- <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis, excepturi? Aliquam magnam perferendis modi,
+                            tempore at nemo est illo minus atque,
+                            nobis in voluptate debitis sit fugit reiciendis maiores. Tenetur!
+                        </p>
+                    </div> -->
+                </div>
+                <a href="">Download CV</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footerContainer">
+                <div class="location">
+                    <h5>Location</h5>
+                    <p>Yangon</p>
+                    <p>Lanmadaw Township</p>
+                </div>
+
+                <div class="social">
+                    <h5>CONTACT SOCIAL</h5>
+                    <div class="iconWrap">
+                        <div class="icon">
+
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="freeLancer">
+                    <h5>ABOUT FREELANCER</h5>
+                    <p>Create Protfolio by Ney Khant <a href="">Github Repository</a></p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
+</body>
+
+</html>
