@@ -197,7 +197,7 @@ html {
   /* background-color: red; */
 }
 
-.history span {
+.history p {
   color: white;
   line-height: 1.7;
   font-size: 18px;
@@ -431,7 +431,7 @@ p {
     padding-bottom: 40px;
   }
 
-  .history span{
+  .history p{
     padding: 10px;
     font-size: 20px;
   }
@@ -476,7 +476,7 @@ p {
     padding-bottom: 40px;
   }
 
-  .history span{
+  .history p{
     padding: 10px;
     font-size: 20px;
   }
