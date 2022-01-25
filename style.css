@@ -27,7 +27,7 @@ html {
   align-items: center;
   justify-content: center;
   background-color: #1abc9c;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   text-align: center;
   position: inherit;
 }
@@ -39,7 +39,7 @@ html {
   width: 200px;
   border: 1px solid #fff;
   border-radius: 120px;
-  margin-top: 150px;
+  margin-top: 160px;
 }
 
 .header h1 {
@@ -53,6 +53,7 @@ html {
   color: white;
   font-size: 20px;
   font-weight: 200;
+  padding-bottom: 20px;
 }
 
 .header i {
@@ -79,7 +80,10 @@ html {
 /* -------main--------- */
 
 .main {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  /* background: red; */
+  width: 80%;
+  margin: auto;
 }
 
 .mainHeader {
@@ -87,11 +91,12 @@ html {
 }
 
 .main p {
-    color: #2c3e50;
+  color: #2c3e50;
   text-align: center;
   font-size: 25px;
   font-weight: 400;
-  margin: 10px;
+  padding-top: 20px;
+  /* margin: 10px; */
 }
 
 .main .rating .line {
@@ -109,7 +114,8 @@ html {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 90%;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 .mainContent .cardWrap .card {
@@ -143,7 +149,7 @@ html {
 .about {
   width: 100%;
   background-color: #1abc9c;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* display: flex; */
   text-align: center;
   justify-content: center;
@@ -159,7 +165,7 @@ html {
 }
 
 .about .aboutContainer {
-    display: flex;
+  display: flex;
   flex-direction: column;
   margin: 20px auto;
   width: 50%;
@@ -172,7 +178,7 @@ html {
   font-size: 30px;
   font-weight: 300;
   color: white;
-  padding: 10px;
+  padding-top: 20px;
 }
 
 .about i {
@@ -214,11 +220,11 @@ html {
   transition: ease;
 }
 
-.aboutContainer span{
-    font-size: 25px;
-    font-weight: 200;
-    color: #fff;
-    margin-bottom: 10px;
+.aboutContainer span {
+  font-size: 25px;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
 .contactContainer p {
@@ -228,122 +234,118 @@ html {
   padding: 10px;
 }
 
-
 /* --footer--- */
-.footer{
-    height: 150px;
-    background-color: #2c3e50;
+.footer {
+  height: 150px;
+  background-color: #2c3e50;
 }
 
-.footerContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
-.location{
-    width: 20%;
-    /* background-color: red; */
-    margin-top: 30px;
-
+.location {
+  width: 20%;
+  /* background-color: red; */
+  margin-top: 30px;
 }
 
-.location h5,p{
-    color: #fff;
-    
+.location h5,
+p {
+  color: #fff;
 }
 
-.location h5{
-    margin-bottom: 10px;
-    font-size: 25px;
-    font-weight: 200;
+.location h5 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 200;
 }
 
-.social{
-    width: 20%;
-    /* background-color: green; */
-    margin-top: 30px;
-
+.social {
+  width: 20%;
+  /* background-color: green; */
+  margin-top: 30px;
 }
 
-.social h5{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 10px;
+.social h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 10px;
 }
 
-.iconWrap{
-    display: flex;
-    justify-content: center;
+.iconWrap {
+  display: flex;
+  justify-content: center;
 }
 
-.iconWrap .icon{
-    border: 1px solid #fff;
-    width: 40px;
-    border-radius: 25px;
-    margin: 10px;
-    cursor: pointer;
+.iconWrap .icon {
+  border: 1px solid #fff;
+  width: 40px;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
 }
 
-.iconWrap .icon i{
-    font-size: 30px;
+.iconWrap .icon i {
+  font-size: 30px;
 }
 
-.icon a{
-    text-decoration: none;
-    color: #fff;
+.icon a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.freeLancer{
-    width: 20%;
-    /* background-color: blue; */
-    margin-top: 30px;
-
+.freeLancer {
+  width: 20%;
+  /* background-color: blue; */
+  margin-top: 30px;
 }
 
-.freeLancer h5{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 10px;
+.freeLancer h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 10px;
 }
 
-.freeLancer a{
-    text-decoration: none;
-    color: thistle;
+.freeLancer a {
+  text-decoration: none;
+  color: thistle;
 }
 
 /* --navbar--- */
 
-.nav{
-    width: 100%;
-    background-color: #2c3e50;
-    position: fixed;
-    padding: 50px 0;
+.nav {
+  width: 100%;
+  background-color: #2c3e50;
+  position: fixed;
+  padding: 50px 0;
 }
 
-.navContainer{
-    display: flex;
-    justify-content: space-around;
+.navContainer {
+  display: flex;
+  justify-content: space-around;
 }
 
-.logo h1{
-    color: #fff;
-    font-size: 30px;
+.logo h1 {
+  color: #fff;
+  font-size: 30px;
 }
 
-.menu a{
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 15px;
+.menu a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px;
 }
 
-.menu a:hover{
-    color: #1abc9c;
-    transition: 0.5s;
+.menu a:hover {
+  color: #1abc9c;
+  transition: 0.5s;
 }
 
 /* hamburger menu */
@@ -380,54 +382,86 @@ html {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
 /* ----for mobile 920px */
-@media (max-width: 920px){
-
-  .nav{
+@media (max-width: 920px) {
+  
+  .nav {
     display: none;
   }
 
-.header {
-  min-height: 50vh;
+  .header {
+    min-height: 50vh;
+  }
+
+  .main {
+    min-height: 50vh;
+  }
+
+  .about {
+    min-height: 50vh;
+  }
+
+  .aboutContainer a {
+    width: 40%;
+  }
+
+  .about h4 {
+    padding-top: 20px;
+  }
+
+  .main p {
+    padding-top: 40px;
+  }
+
+  .header h3 {
+    padding-bottom: 40px;
+  }
 }
 
-.main{
-  min-height: 50vh;
-}
-
-.about{
-  min-height: 50vh;
-}
-
-.aboutContainer a{
-  width: 40%;
-}
-
-.about h4{
-  padding-top: 40px;
-}
-
-.main p{
-  padding-top: 40px;
-}
-}
-
-@media (min-width:920px ){
-  .topnav{
+@media (min-width: 920px) {
+  .topnav {
     display: none;
   }
 }
 
-@media (max-width: 500px){
-  .mainContent .cardWrap{
+@media (max-width: 700px){
+  .aboutContainer a {
+    width: 50%;
+}
+
+}
+
+@media (max-width: 500px) {
+  .about .aboutContainer {
+    width: 100%;
+  }
+
+  .mainContent .cardWrap {
     flex-direction: column;
   }
 
-  .mainContent .cardWrap .card{
-    width: 100%;
+  .mainContent .cardWrap .card {
+    width: 75%;
+    margin: 10px auto;
+  }
+
+  .rating .line {
+    width: 80px;
+  }
+
+  .cardWrap .card img {
+    height: 150px;
+  }
+
+  .header h3 {
+    padding-bottom: 40px;
+  }
+
+  .history p{
+    padding: 10px;
   }
 }
