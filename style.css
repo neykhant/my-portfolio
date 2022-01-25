@@ -219,8 +219,14 @@ html {
   background-color: thistle;
   transition: ease;
 }
-.aboutContainer .aboutMe{
+/* .aboutContainer .aboutMe{
   font-size: 25px !important;
+
+} */
+
+.aboutContainer h4{
+  font-size: 30px;
+    font-weight: 300;
 
 }
 
