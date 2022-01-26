@@ -149,7 +149,7 @@ html {
 .about {
   width: 100%;
   background-color: #1abc9c;
-  min-height: 90vh;
+  /* min-height: 90vh; */
   /* display: flex; */
   text-align: center;
   justify-content: center;
@@ -421,7 +421,7 @@ p {
   }
 
   .about {
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
 
   .aboutContainer a {
