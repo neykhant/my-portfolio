@@ -149,7 +149,7 @@ html {
 .about {
   width: 100%;
   background-color: #1abc9c;
-  /* min-height: 90vh; */
+  /* min-height: 75vh; */
   /* display: flex; */
   text-align: center;
   justify-content: center;
@@ -167,8 +167,8 @@ html {
 .about .aboutContainer {
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
-  width: 50%;
+  margin: 0 auto;
+  width: 100%;
   text-align: center;
   align-items: center;
   /* background-color: tomato; */
@@ -421,7 +421,7 @@ p {
   }
 
   .about {
-    /* min-height: 100vh; */
+    /* min-height: 52vh; */
   }
 
   .aboutContainer a {
