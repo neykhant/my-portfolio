@@ -19,7 +19,7 @@
         <!-- for mobile -->
         <!-- Top Navigation Menu -->
         <div class="topnav">
-            <a href="#header" class="active">Profile</a>
+            <a href="#header" class="active">CV Form</a>
             <div id="myLinks">
                 <a href="#header">Protfolio</a>
                 <a href="#main">Project</a>
@@ -151,14 +151,18 @@
                         </p>
                     </div> -->
                 </div>
-                <a href="img/developer.pdf" download>Download CV</a>
+                <a class="cvButtom" download>Download CV</a>
             </div>
         </div>
 
 
     </section>
 
-    <script>
+    <div class="CVAlert">
+
+    </div>
+
+    <script src="script.js">
         function myFunction() {
           var x = document.getElementById("myLinks");
           if (x.style.display === "block") {
@@ -167,7 +171,7 @@
             x.style.display = "block";
           }
         }
-        </script>
+    </script>
 
 </body>
 
