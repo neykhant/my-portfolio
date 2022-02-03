@@ -9,14 +9,14 @@ const openCVForm = () => {
 
     toastAlert.classList.add("downloadCV");
 
-    toastAlert.style.bottom = `-${toastAlert.offsetHeight}px`;
+    toastAlert.style.top = `-${toastAlert.offsetHeight}px`;
 
     setTimeout(() => {
-        toastAlert.style.bottom = `0px`;
+        toastAlert.style.top = `0px`;
     }, 100);
 
     setTimeout(() => {
-        toastAlert.style.bottom = `-${toastAlert.offsetHeight}px`;
+        toastAlert.style.top = `-${toastAlert.offsetHeight}px`;
     }, 3000);
 
 
